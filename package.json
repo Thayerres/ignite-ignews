@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": ">=0.10.3 <16"
+  },
   "dependencies": {
     "@prismicio/client": "^4.0.0",
     "@stripe/stripe-js": "^1.13.2",
